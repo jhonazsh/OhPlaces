@@ -1,0 +1,153 @@
+body{
+	background-color:rgb(172, 235, 175);
+	padding: 30px;
+}
+
+.navbar-inverse{
+	background-color: #000;
+	box-shadow: 1px 1px 1px 1px #464646;
+	border: none;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #40533F;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #40533F;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: rgb(138, 230, 142);
+}
+
+h5{
+	margin-left: 30px;
+}
+
+.img-rounded{
+	width: 300px;
+	height: 200px;
+	border-radius: 2px;
+	box-shadow: 0 0 2px 1px;
+}
+
+.col-md-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-10{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-3{
+	position: relative;
+}
+.col-md-2{
+	background-color: rgb(27, 27, 27);
+	height: 400px;
+	padding-left: 0px;
+	border-radius: 0 0 5px 0px;
+	opacity:0.7;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+/*---------------------------------------------------------------*/
+
+.div{
+	background-color: rgb(138, 230, 142);	
+	height: 500px;
+	width: 630px;
+	margin-top: 20px;
+	margin-right: 24px;
+	margin-left: 16px;
+}
+
+.portada{
+	border-radius: 0 0 0px 5px;
+}
+
+.sobre{
+	width: 300px;
+	height: 40px;
+	position: absolute;
+	top:160px; 
+	background-color: rgb(206, 228, 45);
+	display: none;
+	border-radius: 0 0 2px 2px;
+	color:#666666;
+	text-shadow: -0.5px -1px 0.5px #000000;
+	padding-top: 5px;
+}	
+
+
+.sobreportada{
+	background-color: rgb(64, 109, 50);
+	width: 450px;
+	height: 50px;
+	top: 330px;
+	left: -5px;
+	position: absolute;
+	color:white;
+	padding-left: 20px;
+	padding-top: 0px;
+	font-size: 17px;
+	opacity:0.9;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	padding-top: 13px;
+}
+
+.subportada{
+	background-color: rgb(64, 109, 50);
+	opacity:0.3;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	width: 180px;
+	height: 340px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	border-radius: 40px 0px 40px 0px;
+}
+
+.iconito{
+	float:right;
+	top:-15px;
+	border-left: 2px solid #888888;
+	height: 40px;
+	padding: 12px;
+}
+
+/*********/
+
+.nav-pills>li>a {
+border-radius: 0px;
+background-color: yellow;
+color: black;
+}
+
+.zoom{
+	color: black;
+	float: right;
+	margin-right: 20px;
+	font-size: 20px;
+	display: inline-block;
+	top: 0px;
+}
+
+.senal{
+	float: right;
+	margin-right: -18px;
+	width: 5px;
+	height: 41px;
+	background-color: black;
+	opacity:1;
+	margin-top: -10px;
+	display: none;
+}
+
+
